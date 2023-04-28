@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,500&display=swap');
 * {
 	box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
 
 	height: 100vh;
 	color: #fff;
-	font-family: 'Titan One', cursive;
+	font-family: 'Josefin Slab', serif;
 
 	display: flex;
 	flex-direction: column;
@@ -47,19 +47,19 @@ body::after {
 	margin: 0 0 20px;
 }
 
-.year {
+.age {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 200px;
+	font-size: 150px;
 	line-height: 1;
 	z-index: -1;
 	opacity: 0.2;
 }
 
 .countdown {
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: center;
 }
